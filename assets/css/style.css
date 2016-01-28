@@ -1,0 +1,426 @@
+a {
+	color: #f68a4c;
+}
+a:hover {
+	color: #f68a4c;
+}
+
+
+/*************************************************************
+*************************HEADER*******************************
+**************************************************************/
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	margin-left: 0px;
+	padding:0px 0px;
+	position: absolute;
+	top:-20px;
+}
+
+
+
+.navbar {
+	border:none;
+	border-radius: 0px;
+}
+
+.navbar-inverse {
+	background-color: #0a1123;
+	margin-bottom: 0px;
+}
+
+.navbar-nav {
+	margin-top: 15px;
+}
+
+.navbar-nav>li {
+	margin-left: 35px;
+    padding-bottom: 18px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	margin-top:-18px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	padding:5px 12px;
+}
+
+.navbar-nav>li>.dropdown-menu li>span {
+	padding:3px 20px;
+	color: #bbb;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-weight: bold;
+	color:#fff;
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #f68a4c;
+	color:#fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: #f68a4c;
+}
+
+
+
+
+.top-bar {
+	overflow: visible;
+	padding: 10px 0px;
+	background-color: #0a1123;
+}
+
+.top-bar .search {
+	display: inline-block;
+	position: relative;
+    bottom: 4px;
+}
+
+.top-bar .search .fa.fa-search {
+	color:#fff;
+}
+
+/* Sub menu */
+.sub-menu {
+	text-align: right;
+}
+
+.sub-menu .nav.navbar-nav {
+	display: inline-block;
+	padding:0px;
+	margin: 0px;
+	color:#bbb;
+	float:none;
+}
+
+
+.sub-menu .nav.navbar-nav>li {
+	margin-right: 20px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+}
+.sub-menu .nav.navbar-nav>li>a {
+	color:#ddd;
+	padding:0px;
+}
+.sub-menu .nav.navbar-nav>li>a:focus,
+.sub-menu .nav.navbar-nav>li>a:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.top-bar .navbar-nav>li>.dropdown-menu {
+	margin-top: 0px;
+}
+
+
+
+/*************************************************************
+*****************SLIDESHOW CAROUSEL*******************************
+**************************************************************/
+.slideshow {
+	margin-bottom: 126px;
+}
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	min-width: 100%;
+}
+
+.slideshow .carousel-indicators  {
+	left:0px;
+	width:100%;
+	margin-left: 0px;
+	background-color: #0a1123;
+	color: #fff;
+	bottom: -126px;
+	padding: 20px 0px;
+}
+
+.slideshow .carousel-indicators .active {
+	width: 33.33333333%;
+	height: auto;
+	margin: 0px;
+	background-color: transparent;
+}
+
+.slideshow .carousel-indicators>div>a {
+	display: block !important;
+	margin: 0 auto !important;
+	cursor: pointer;
+}
+
+.slideshow .carousel-indicators>div.cloud>a {
+	width: 78px !important;
+	height: 66px !important;
+	background: url(../images/cloud.png) no-repeat;
+}
+.slideshow .carousel-indicators>div.cloud>a:hover {
+	background: url(../images/cloud.png) 0px -66px no-repeat;
+}
+.slideshow .carousel-indicators>div.integration>a {
+	width: 73px !important;
+	height: 57px !important;
+	background: url(../images/ERP.png) no-repeat;
+}
+.slideshow .carousel-indicators>div.integration>a:hover {
+	background: url(../images/ERP.png) 0px -58px no-repeat;
+}
+.slideshow .carousel-indicators>div.connection>a {
+	width: 84px !important;
+	height: 57px !important;
+	background: url(../images/connecting.png) no-repeat;
+}
+.slideshow .carousel-indicators>div.connection>a:hover {
+	background: url(../images/connecting.png) 0px -58px no-repeat;
+}
+
+.slideshow .carousel-indicators>div>span {
+	display: block;
+}
+
+.slideshow .carousel-indicators>div.integration span {padding-top: 8px;}
+.slideshow .carousel-indicators>div.connection span {padding-top: 8px;}
+
+/*************************************************************
+**************CAROUSEL LOGO LIST CLIENTS**********************
+**************************************************************/
+.clients .logo-list {
+	text-align: center;
+}
+.clients .logo-list ol {
+	text-align: left;
+	padding: 0px;
+	display: inline-block;
+}
+.clients .logo-list ol li {
+	list-style: none;
+}
+
+.clients .logo-list ol li.client-logo {
+	display: inline-block;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	background: url(../images/at&t-logo.png) 0px -100px no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.clients .logo-list ol li.client-logo:hover {
+	background-position: 0px 0px;
+}
+
+
+/********************** marketing area **********************/
+h2 {
+	text-align: center;
+	color:#fff;
+	padding:50px 0px;
+	background-color: #0a1123;
+	margin: 0px;
+}
+
+.spacer-20 {
+	height:20px;
+	clear: both;
+}
+
+.marketing-bg {
+	background: url(../images/marketing-bg.jpg) center center no-repeat;
+	background-size: 100% 100%;
+	padding: 40px 0px;
+}
+
+.marketing-bg>div {
+	text-align: center;
+}
+
+
+/************ CHART IMPLEMENTATION ***********/
+
+
+h2.no-span {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  color: #0a1123;
+  overflow: hidden;
+}
+h2.no-span {
+  display: table;
+  white-space: nowrap;
+}
+h2.no-span:before,
+h2.no-span:after {
+  border-top: 1px solid green;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 45%;
+}
+h2.no-span:before {
+  right: 1.5%;
+}
+h2.no-span:after {
+  left: 1.5%;
+}
+
+/****CHART****/
+.chart {
+	position: relative;
+	border-bottom: 1px solid #0a1123;
+	margin-top: 40px;
+	height: 160px;
+}
+	
+.chart.bottom {
+	border-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.chart>div {
+	position: absolute;
+	display: none;
+}
+
+.chart>div span {
+	display: block;
+	position: absolute;
+}
+
+.chart>div span.icon i {
+	margin-top: 20px;
+	color:#fff;
+}
+
+.chart>div span.icon {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-color: #0a1123;
+}
+.chart>div span.vline {
+	border-right: 1px solid #0a1123;
+	width:1px;
+	height:90px;
+	left:35px;
+	top:70px;
+}
+.chart>div h3 {
+	position: absolute;
+	left: 80px;
+}
+.chart.bottom>div h3 {
+	top:90px;
+}	
+
+.chart.bottom>div span.icon {
+	top:90px;
+}
+.chart.bottom>div span.vline {
+	top:0px;
+}
+
+
+.chart div.initiate {
+	display: block;
+	left:15%;
+}
+.chart div.execute {
+	display: block;
+	left:45%;
+}
+.chart div.launch {
+	display: block;
+	left: 70%;
+}
+.chart div.define {
+	display: block;
+	left: 25%;
+}
+.chart div.accept {
+	display: block;
+	left: 60%;
+}
+
+ul.initiate {
+	position: absolute;
+	width: 250px;
+	left: 70px;
+	top:50px;
+	background-color: #fff;
+	padding:10px 10px 10px 20px;
+	z-index: 20;
+}
+
+ul.initiate li {
+	text-align: left;
+	font-size: 12px;
+}
+
+
+
+/*************************************************************
+**************************FOOTER******************************
+**************************************************************/
+.footer {
+	background-color: #0a1123;
+	color: #fff;
+}
+.footer h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.footer ul {
+	padding-left:0px;
+}
+.footer ul li {
+	/*list-style-type: none;*/
+	/*white-space: nowrap;*/
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	margin-left: 16px;
+}
+.footer ul li.desc {
+	list-style: none;
+	margin-left: 0px;
+}
+
+/*.footer ul li:before {
+	content: "-";
+	padding-right: 10px;
+}
+.footer ul li.desc:before {
+	content:"";
+	padding-right: 0px;
+}*/
+
+.footer ul li a {
+	word-wrap:break-word;
+}
+
+.footer .logo {
+	margin: 20px;
+}
+.footer .socials {
+	margin-top: 60px;
+	margin-left: 20px;
+}
+.footer .socials a:hover i {
+	color: #ffbf9b;
+}
+
+
+
+
+
+
